@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Experimento de distancia</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="connection_fragment_label">Connection Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="buscar">Buscar</string>
+    <string name="general">General</string>
+    <string name="graficos">Graficos</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="en_espera">En espera</string>
+    <string name="desconectado">Desconectado</string>
+    <string name="conectionstate">ConectionState</string>
+    <string name="dispositivo">Dispositivo:</string>
+    <string name="estado_muestreo">Estado muestreo</string>
+    <string name="temporizador">Temporizador</string>
+    <string name="seleccionar">Seleccionar</string>
+    <string name="rango_de_tiempo">Rango de tiempo:</string>
+    <string name="duraci_n">Duración</string>
+    <string name="muestreo_1">Muestreo 1</string>
+    <string name="agendar">Agendar</string>
+    <string name="agendamiento_1">Agendamiento 1</string>
+    <string name="guardados">Guardados</string>
+    <string name="text_credits">Jaime Huenchulao  <a href="https://github.com/NikoGB">github.com/NikoGB</a>\nAlex Tardon \t\t\t<a href="https://github.com/AlexFT257">@github.com/AlexFT257</a></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

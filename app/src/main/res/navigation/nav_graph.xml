@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ContentMainFragment">
+
+    <fragment
+        android:id="@+id/ContentMainFragment"
+        android:name="com.example.finalencoder_controller.MainContentFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/content_main" >
+        <action
+            android:id="@+id/action_ContentMainFragment_to_debuggingConsoleFragment"
+            app:destination="@id/debuggingConsoleFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_ContentMainFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_ContentMainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/debuggingConsoleFragment"
+        android:name="com.example.finalencoder_controller.DebuggingConsoleFragment"
+        android:label="debugging_console"
+        tools:layout="@layout/debugging_console" >
+        <action
+            android:id="@+id/action_debuggingConsoleFragment_to_ContentMainFragment"
+            app:destination="@id/ContentMainFragment"
+            app:exitAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.finalencoder_controller.aboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" >
+        <action
+            android:id="@+id/action_aboutFragment_to_ContentMainFragment"
+            app:destination="@id/ContentMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.finalencoder_controller.SettingsFragment"
+        android:label="fragment_adjust_sampling"
+        tools:layout="@layout/fragment_adjust_sampling" >
+        <action
+            android:id="@+id/action_settingsFragment_to_ContentMainFragment"
+            app:destination="@id/ContentMainFragment"
+            app:exitAnim="@anim/nav_default_enter_anim" />
+    </fragment>
+</navigation>
